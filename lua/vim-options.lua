@@ -7,7 +7,6 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set number")
 
 
-vim.keymap.set("n", "<leader>tb", ":Gitsigns toggle_current_line_blame<CR>")
 vim.keymap.set("n", "<leader>rn", ":set relativenumber!<CR>")
 vim.keymap.set("n", "<leader>an", ":set number!<CR>")
 vim.opt.termguicolors = true
