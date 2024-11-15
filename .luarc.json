@@ -1,5 +1,7 @@
 {
     "diagnostics.globals": [
-        "vim"
+        "vim",
+        "leader",
+        "toggle_current_line_blame"
     ]
 }

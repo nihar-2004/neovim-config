@@ -1,6 +1,7 @@
 {
   "bufferline.nvim": { "branch": "main", "commit": "5c528bee3dd797d5bd6bae5f229411939b25b203" },
   "catppuccin": { "branch": "main", "commit": "637d99e638bc6f1efedac582f6ccab08badac0c6" },
+  "gitsigns.nvim": { "branch": "main", "commit": "ac5aba6dce8c06ea22bea2c9016f51a2dbf90dc7" },
   "hererocks": { "branch": "master", "commit": "c9c5444dea1e07e005484014a8231aa667be30b6" },
   "image.nvim": { "branch": "master", "commit": "7f61c1940a8b072ca47a28928d2375dc1e11f464" },
   "indent-blankline.nvim": { "branch": "master", "commit": "7871a88056f7144defca9c931e311a3134c5d509" },
