@@ -4,7 +4,7 @@ return {
     config = function()
         vim.opt.termguicolors = true
         require("bufferline").setup({
---            options = { separator_style = "slant" }
+            options = { separator_style = "slant" }
         })
     end,
 }
