@@ -2,6 +2,7 @@
     "diagnostics.globals": [
         "vim",
         "leader",
-        "toggle_current_line_blame"
+        "toggle_current_line_blame",
+        "cmp"
     ]
 }
