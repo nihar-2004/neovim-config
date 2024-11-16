@@ -3,6 +3,7 @@
         "vim",
         "leader",
         "toggle_current_line_blame",
-        "cmp"
+        "cmp",
+        "sources"
     ]
 }
