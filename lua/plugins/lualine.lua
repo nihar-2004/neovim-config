@@ -1,12 +1,23 @@
 return {
-	'nvim-lualine/lualine.nvim',
+	"nvim-lualine/lualine.nvim",
 	config = function()
-		require('lualine').setup({
-		options = {
-			theme='auto',
-
-
-			}
+		local navic = require("nvim-navic")
+		require("lualine").setup({
+			sections = {
+				lualine_c = {
+					{
+						function()
+							return navic.get_location()
+						end,
+						cond = function()
+							return navic.is_available()
+						end,
+					},
+				},
+			},
+			options = {
+				theme = "auto",
+			},
 		})
-	end
+	end,
 }
