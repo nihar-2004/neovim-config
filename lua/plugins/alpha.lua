@@ -79,7 +79,7 @@ return {
 				" > Configuration",
 				"<cmd>edit C:\\Users\\nihar\\AppData\\Local\\nvim\\init.lua<CR>"
 			),
-			dashboard.button("l", "󰒲 > " .. " Lazy", "<cmd> Lazy <CR>"),
+			dashboard.button("l", "󰒲 > Lazy", "<cmd> Lazy <CR>"),
 			dashboard.button("q", " > Quit NVIM", "<cmd>qa<CR>"),
 		}
 		alpha.setup(dashboard.opts)
