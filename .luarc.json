@@ -4,6 +4,7 @@
         "leader",
         "toggle_current_line_blame",
         "cmp",
-        "sources"
+        "sources",
+        "extra_groups"
     ]
 }

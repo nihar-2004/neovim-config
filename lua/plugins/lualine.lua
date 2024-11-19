@@ -16,7 +16,7 @@ return {
 				},
 			},
 			options = {
-				theme = "auto",
+				theme = "tokyonight",
 			},
 		})
 	end,
